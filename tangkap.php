@@ -10,7 +10,7 @@ $password = mysqli_query($konek, "SELECT * FROM login_level WHERE password = '$p
 $result2  = mysqli_num_rows($password);
 if ($result == 1 && $result2 == 1) {
     if ($lokasi == 1) {
-        header("location: adminData.php", true, 303);
+        header("location: admin.php", true, 303);
         exit;
     }
     else if($lokasi == 2){
