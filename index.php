@@ -61,7 +61,7 @@ require 'function.php';
 <body>
     <h1>- Halaman daftar -</h1><br>
     <p id="salah"></p>
-        <form action="tangkap2.php" method="post">
+        <form action="" method="post">
             <table>
                 <tr>
                     <th colspan="2">Form login</th>
